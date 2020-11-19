@@ -100,10 +100,12 @@ body {
 .cards {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .cards div {
-    width: 32%;
+    max-width: 32%;
+    min-width: 253px;
     max-height: auto;
     margin: 5px 3px;
     padding: 20px 14px;
