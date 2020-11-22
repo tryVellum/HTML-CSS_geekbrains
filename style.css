@@ -1,0 +1,206 @@
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    width: auto;
+}
+
+.H2_contacts, .H3, .button {
+    text-align: center;
+}
+
+.H1, H4, .paragraph {
+    color: #1F3F68;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: sans-serif;
+    height: 100%;
+}
+
+.wide_page {
+    background-image: linear-gradient(white, rgb(248, 248, 255));
+    width: 100%;
+    height: 100%;
+}
+
+.title_page {
+    margin: 0px 10%;
+    min-height: 100%;
+}
+
+.headding {
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.headding a {
+    display: inline-block;
+    font-family: arial,sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(68,68,68);
+    text-decoration: none;
+    user-select: none;
+    padding: .2em 1.2em;
+    outline: none;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 2px;
+    background: rgb(245,245,245) linear-gradient(#f4f4f4, #f1f1f1);
+    transition: all .218s ease 0s;
+    border-radius: 10%;
+  }
+  .headding a:hover {
+    color: rgb(24,24,24);
+    border: 1px solid rgb(198,198,198);
+    background: #f7f7f7 linear-gradient(#f7f7f7, #f1f1f1);
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    border-radius: 15%;
+  }
+  .headding a:active {
+    color: rgb(51,51,51);
+    border: 1px solid rgb(204,204,204);
+    background: rgb(238,238,238) linear-gradient(rgb(238,238,238), rgb(224,224,224));
+    box-shadow: 0 1px 2px rgba(0,0,0,.1) inset;
+  }
+
+.start_text {
+    margin: 0 40% 0 0;
+}
+
+.start_text h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-size: 500%;
+    text-align: center;
+    color: #1F3F68;
+}
+
+.start_text p {
+    text-align: justify;
+}
+
+.smart_inform {
+    margin: 0 10%;
+    min-height: 100%;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cards div {
+    max-width: 32%;
+    min-width: 253px;
+    max-height: auto;
+    margin: 5px 3px;
+    padding: 20px 14px;
+    text-align: justify;
+    border-radius: 10%;
+    box-shadow: 0px 0px 15px 3px rgba(248, 248, 255, 1);
+}
+
+.cards div:hover {
+    background-color: rgb(248, 248, 255);
+    cursor: pointer;
+}
+
+.smart_inform h3 {
+    font-weight: 400;
+    font-size: 70px;
+    margin: 50px 0;
+    text-align: center;
+    color: #1F3F68;
+}
+
+.cards h4 {
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.cards p {
+    font-weight: 200;
+    font-size: 16px;
+}
+
+.footer {
+    background-color: rgb(59, 89, 152);
+    margin: 0px 0px;
+    color: #fff;
+}
+
+.up_footer {
+    margin: 0px 10%;
+    padding: 10px 0;
+    height: 100px;
+}
+
+.down_footer {
+    margin: 0px 10%;
+    height: 100px;
+}
+
+.down_footer li {
+    float: left;
+    margin: 0 20px 0 10px;
+}
+
+.down_footer a{
+    color: #fff;
+}
+
+.paragraph {
+    font-size: 16px;
+    line-height: 26px;
+    color: rgb(97, 89, 89);
+}
+
+.H1 {
+    font-size: 64px;
+}
+
+.H2_contacts {
+    font-weight: 500;
+    font-size: 44px;
+}
+
+.H3 {
+    font-size: 36px;
+}
+
+.H4 {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.input {
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+}
+
+.button {
+    background: #5A98D0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
